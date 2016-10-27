@@ -1,0 +1,53 @@
+body{
+	background-color: #000000;
+	font-family: 'Open Sans', sans-serif;
+    display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	font-size: 16px;
+}
+
+.left{
+	border-left: 3px solid #8a8a8a;
+}
+
+.info{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#252525+0,252525+100 */
+background: rgb(37,37,37) , url(../img/cons.jpg)  fixed  ; /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(37,37,37,.7) 0%, rgba(37,37,37,.7) 100%) , url(../img/cons.jpg)  fixed  ; /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(37,37,37,.7) 0%,rgba(37,37,37,.7) 100%) , url(../img/cons.jpg)  fixed  ; /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(37,37,37,.7) 0%,rgba(37,37,37,.7) 100%) , url(../img/cons.jpg)  fixed  ; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252525', endColorstr='#252525',GradientType=0 ); /* IE6-9 */
+background-size: cover;	
+}
+
+
+	
+
+}
+
+.info h1{
+
+	font-family: 'Oswald', sans-serif;
+	color: #8a8a8a;
+
+}
+
+h2{
+
+	font-family: 'Oswald', sans-serif;
+	color: #f7941d;
+	text-shadow: 1px 1px 1px  #000000;
+
+}
+h4{
+	color: #fff;
+}
+strong{
+font-family: 'Oswald', sans-serif;
+font-size:3em;
+color: #8a8a8a; 	
+}
+span{
+	color: #fff;
+}
