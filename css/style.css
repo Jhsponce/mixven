@@ -1,53 +1,309 @@
-body{
-	background-color: #000000;
-	font-family: 'Open Sans', sans-serif;
+@media only screen and (max-width: 768px){
+	body{
+	background-color: #252234;
+	font-family: 'Oswald', sans-serif;
     display: flex;
   	flex-direction: column;
   	justify-content: center;
-  	font-size: 16px;
-}
+  	font-size: 10px;
+  	
 
-.left{
-	border-left: 3px solid #8a8a8a;
+}
+.right{
+	border-right: 3px solid #252234;
 }
 
 .info{
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#252525+0,252525+100 */
-background: rgb(37,37,37) , url(../img/cons.jpg)  fixed  ; /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(37,37,37,.7) 0%, rgba(37,37,37,.7) 100%) , url(../img/cons.jpg)  fixed  ; /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(37,37,37,.7) 0%,rgba(37,37,37,.7) 100%) , url(../img/cons.jpg)  fixed  ; /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(37,37,37,.7) 0%,rgba(37,37,37,.7) 100%) , url(../img/cons.jpg)  fixed  ; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252525', endColorstr='#252525',GradientType=0 ); /* IE6-9 */
+
+background-image: url(../img/cons_red_02.jpg);
 background-size: cover;	
-}
-
-
-	
-
-}
-
-.info h1{
-
-	font-family: 'Oswald', sans-serif;
-	color: #8a8a8a;
+background-repeat: no-repeat;
+height: 60em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 
 }
 
-h2{
 
-	font-family: 'Oswald', sans-serif;
-	color: #f7941d;
-	text-shadow: 1px 1px 1px  #000000;
+
+h1{
+	 font-family: conthrax;
+	 text-transform: uppercase;
+	 color: #252234;
+	 font-size: 1.5em;
+	 padding-top: .4em;
+}
+.bar{
+
+	background-color: #252234;
+	height:auto; 
+}
+.red{
+background-color: #e6332d;
+height: auto;	
 
 }
-h4{
-	color: #fff;
+.grey{
+background-color: #9a9a9a;
+height: auto;	
+
 }
-strong{
-font-family: 'Oswald', sans-serif;
-font-size:3em;
-color: #8a8a8a; 	
+
+.top-bar-title{
+	padding-left: 1em;
+	padding-top: .1em;
+	font-family: 'Questrial', sans-serif;
 }
+
+.content{
+	padding-top: .5em;
+}
+
+
 span{
-	color: #fff;
+	font-family: 'Questrial', sans-serif;
+font-size:1em;
+color: #fff; 	
 }
+i{
+	color: #fff; 
+font-family: 'Raleway', sans-serif;
+font-size:2.5em;
+}
+
+
+}
+
+
+@media only screen and (min-width: 769px) {
+
+@font-face {
+    font-family: conthrax;
+    src: url(../fonts/conthrax-sb.ttf);
+}
+
+body{
+	background-color: #fff;
+		font-family: 'Questrial', sans-serif;
+
+  	font-size: 15px;
+
+
+
+}
+h1{
+	 font-family: conthrax;
+	 text-transform: uppercase;
+	 color: #252234;
+	 font-size: 3.5em;
+	 padding-top: .4em;
+}
+
+.info{
+
+background-image: url(../img/cons_red_02.jpg);
+background-size: cover;	
+background-repeat: no-repeat;
+height: 75vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.right{
+	border-right: 3px solid #252234;
+}
+
+
+.bar{
+
+	background-color: #252234;
+	height:17vh; 
+}
+.red{
+background-color: #e6332d;	
+height: 3vh;	
+}
+.grey{
+background-color: #9a9a9a;
+height: 5vh;	
+}
+
+.top-bar-title{
+	padding-left: 1em;
+	padding-top: .1em;
+	font-family: 'Questrial', sans-serif;
+}
+
+.content{
+	padding-top: .5em;
+}
+
+
+span{
+	font-family: 'Questrial', sans-serif;
+font-size:1em;
+color: #fff; 	
+}
+i{
+	color: #fff; 
+font-family: 'Raleway', sans-serif;
+font-size:2.5em;
+}
+
+
+ }
+
+@media only screen and (min-width: 568px) and (max-width: 568px) {
+	body{
+	background-color: #252234;
+	font-family: 'Oswald', sans-serif;
+    display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	font-size: 10px;
+  	
+
+}
+.right{
+	border-right: 3px solid #252234;
+}
+
+.info{
+
+background-image: url(../img/cons_red_02.jpg);
+background-size: cover;	
+background-repeat: no-repeat;
+height: 70em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+
+h1{
+	 font-family: conthrax;
+	 text-transform: uppercase;
+	 color: #252234;
+	 font-size: 1.5em;
+	 padding-top: .4em;
+}
+.bar{
+
+	background-color: #252234;
+	height:20em; 
+}
+.red{
+background-color: #e6332d;
+height: auto;	
+
+}
+.grey{
+background-color: #9a9a9a;
+height: auto;	
+
+}
+
+.top-bar-title{
+	padding-left: 1em;
+	padding-top: .1em;
+	font-family: 'Questrial', sans-serif;
+}
+
+.content{
+	padding-top: .5em;
+}
+
+
+span{
+	font-family: 'Questrial', sans-serif;
+font-size:1em;
+color: #fff; 	
+}
+i{
+	color: #fff; 
+font-family: 'Raleway', sans-serif;
+font-size:.9em;
+}
+	
+ }
+
+
+@media only screen and (min-width: 480px) and (max-width: 480px) {
+	body{
+	background-color: #252234;
+	font-family: 'Oswald', sans-serif;
+    display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	font-size: 10px;
+  	
+
+}
+.right{
+	border-right: 3px solid #252234;
+}
+
+.info{
+
+background-image: url(../img/cons_red_02.jpg);
+background-size: cover;	
+background-repeat: no-repeat;
+height: 70em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+
+h1{
+	 font-family: conthrax;
+	 text-transform: uppercase;
+	 color: #252234;
+	 font-size: 1.5em;
+	 padding-top: .4em;
+}
+.bar{
+
+	background-color: #252234;
+	height:20em; 
+}
+.red{
+background-color: #e6332d;
+height: auto;	
+
+}
+.grey{
+background-color: #9a9a9a;
+height: auto;	
+
+}
+
+.top-bar-title{
+	padding-left: 1em;
+	padding-top: .1em;
+	font-family: 'Questrial', sans-serif;
+}
+
+.content{
+	padding-top: .5em;
+}
+
+
+span{
+	font-family: 'Questrial', sans-serif;
+font-size:1em;
+color: #fff; 	
+}
+i{
+	color: #fff; 
+font-family: 'Raleway', sans-serif;
+font-size:.9em;
+}
+	
+ }
