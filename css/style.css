@@ -70,6 +70,7 @@ i{
 	color: #fff; 
 font-family: 'Raleway', sans-serif;
 font-size:2.5em;
+
 }
 .reveal{
 	border:.5em solid #e6332d;
@@ -122,12 +123,39 @@ body{
 
 a{
 	color: #fff;
+
+}
+
+
+}
+
+
+@media only screen and (min-width: 769px) {
+
+@font-face {
+    font-family: conthrax;
+    src: url(../fonts/conthrax-sb.ttf);
+}
+
+body{
+	background-color: #fff;
+		font-family: 'Questrial', sans-serif;
+
+  	font-size: 15px;
+
+
+
+
 }
 h1{
 	 font-family: conthrax;
 	 text-transform: uppercase;
 	 color: #252234;
+
 	 font-size: 3em;
+
+	 font-size: 3.5em;
+
 	 padding-top: .4em;
 }
 
@@ -169,6 +197,7 @@ height: 5vh;
 
 .content{
 	padding-top: .5em;
+
 }
 
 
@@ -195,6 +224,25 @@ font-size:2.5em;
 }	
  }
 
+
+}
+
+
+span{
+	font-family: 'Questrial', sans-serif;
+font-size:1em;
+color: #fff; 	
+}
+i{
+	color: #fff; 
+font-family: 'Raleway', sans-serif;
+font-size:2.5em;
+}
+
+
+ }
+
+
 @media only screen and (min-width: 568px) and (max-width: 568px) {
 	body{
 	background-color: #252234;
@@ -204,6 +252,7 @@ font-size:2.5em;
   	justify-content: center;
   	font-size: 10px;
   	
+
 
 }
 .right{
@@ -221,6 +270,8 @@ height: 70em;
   flex-direction: column;
 
 }
+
+
 
 
 
@@ -268,6 +319,7 @@ i{
 font-family: 'Raleway', sans-serif;
 font-size:.9em;
 }
+
 .reveal{
 	border:.5em solid #e6332d;
 	background-color: #252234;
@@ -282,17 +334,7 @@ font-size:.9em;
  }
 
 
-@media only screen and (min-width: 480px) and (max-width: 480px) {
-	body{
-	background-color: #252234;
-	font-family: 'Oswald', sans-serif;
-    display: flex;
-  	flex-direction: column;
-  	justify-content: center;
-  	font-size: 10px;
-  	
 
-}
 .right{
 	border-right: 3px solid #252234;
 }
@@ -355,6 +397,130 @@ i{
 font-family: 'Raleway', sans-serif;
 font-size:.9em;
 }
+	
+ }
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 480px) {
+	body{
+	background-color: #252234;
+	font-family: 'Oswald', sans-serif;
+    display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	font-size: 10px;
+  	
+
+
+}
+.right{
+	border-right: 3px solid #252234;
+}
+
+.info{
+
+background-image: url(../img/cons_red_02.jpg);
+background-size: cover;	
+background-repeat: no-repeat;
+height: 70em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+
+h1{
+	 font-family: conthrax;
+	 text-transform: uppercase;
+	 color: #252234;
+	 font-size: 1.5em;
+	 padding-top: .4em;
+}
+.bar{
+
+	background-color: #252234;
+	height:20em; 
+}
+.red{
+background-color: #e6332d;
+height: auto;	
+
+}
+.grey{
+background-color: #9a9a9a;
+height: auto;	
+
+}
+
+
+}
+.right{
+	border-right: 3px solid #252234;
+}
+
+.info{
+
+background-image: url(../img/cons_red_02.jpg);
+background-size: cover;	
+background-repeat: no-repeat;
+height: 70em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+
+h1{
+	 font-family: conthrax;
+	 text-transform: uppercase;
+	 color: #252234;
+	 font-size: 1.5em;
+	 padding-top: .4em;
+}
+.bar{
+
+	background-color: #252234;
+	height:20em; 
+}
+.red{
+background-color: #e6332d;
+height: auto;	
+
+}
+.grey{
+background-color: #9a9a9a;
+height: auto;	
+
+}
+
+
+.top-bar-title{
+	padding-left: 1em;
+	padding-top: .1em;
+	font-family: 'Questrial', sans-serif;
+}
+
+.content{
+	padding-top: .5em;
+}
+
+
+span{
+	font-family: 'Questrial', sans-serif;
+font-size:1em;
+color: #fff; 	
+}
+i{
+	color: #fff; 
+font-family: 'Raleway', sans-serif;
+font-size:.9em;
+}
+
 .reveal{
 	border:.5em solid #e6332d;
 	background-color: #252234;
@@ -705,4 +871,7 @@ font-size:.9em;
 .top-bar-right span a{
 	color: #000000;
 }	
+
+	
+
  }
