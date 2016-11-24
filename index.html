@@ -14,19 +14,14 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Oswald:400,700" rel="stylesheet">
     <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
     <link rel="icon" href="img/mixven_fav.png">
-
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8">
   </head>
   <body>
 <div id="loader"><img src="img/mixven_logo_loader.png" alt="" id="img"></div>
 <div  class="page-loader-left"></div>
 <div class="page-loader-right"></div>
-
-  </head>
-  <body>
-
-
   
 <div class="info">
 
@@ -41,34 +36,30 @@
 
 
 
-
 </div>
 <div class="top-bar red"></div>
 <div class="bar">
     <div class="row expanded text-center content">
-
-
-</div>
-<div class="top-bar red"></div>
-<div class="bar">
-    <div class="row expanded text-center content">
-
 
        
 
         <div class="column small-12 medium-3 large-3">
       
-              <span>
+              <span class="hide-for-small-only">
 
-                  <a href="tel:+582129942643"><i class="fi-telephone"></i></a></p>
+               <i class="fi-telephone"></i>
                   
              
+                  <p >+58 (212) 994.26.43</p>
+          
+              </span>
 
+              <span class="show-for-small-only">
 
-                  <i class="fi-telephone"></i>
+                  <a href="tel:+582129942643"><i class="fi-telephone"></i></a>
+                  
              
-                  <p>+58 (212) 994.26.43</p>
-
+                  <p itemprop="telephone"><a href="tel:+582129942643">+58 (212) 994.26.43</a>
           
               </span>
         </div>
@@ -77,14 +68,10 @@
 
               <span>
 
-
                   <a data-open="map"><i class="fi-map"></i></a>
-
-                  <i class="fi-map"></i>
-
         
-                  <p>Av. Municipal, sector Puente Elevado, edif. Automotores, piso 1. Puerto La Cruz - Anzoátegui.
-                  </p>
+                 <a data-open="map"><p>Av. Municipal, sector Puente Elevado, edif. Automotores, piso 1. Puerto La Cruz - Anzoátegui.
+                  </p></a>
 
               </span>
       </div>
@@ -92,18 +79,19 @@
 
       <div class="column small-12 medium-3 large-3">
 
-              <span>
+              <span class="hide-for-small-only">
+      <i class="fi-mail"></i>
+              
+        
+              <p>info@grupomixven.com</p>
 
+              </span>
+
+              <span class="show-for-small-only">
 <a href="mailto:info@grupomixven.com?Subject=Haga%20su%20solicitud%20o%20pregunta" target="_blank"><i class="fi-mail"></i></a>
               
         
               <p><a href="mailto:info@grupomixven.com?Subject=Haga%20su%20solicitud%20o%20pregunta" target="_blank">info@grupomixven.com</a></p>
-
-
-              <i class="fi-mail"></i>
-        
-              <p>info@grupomixven.com</p>
-
 
               </span>
       </div>
@@ -111,21 +99,16 @@
 
        
     </div>
-</div>   
+  </div>
+ 
 <div class="top-bar grey">
   <div class="top-bar-title">     
     <span>Mix-ven, C.A.</span>&Tab;<span>&VerticalLine;</span>&Tab;
     <span>RIF: J-40717771-0</span>
 
-    </div>
-
-</div>
-
-
-
  <span class="show-for-small-only mobile">Powered by <a href="https://www.krewbit.com"><strong>Krewbit.com</strong></a></span>
     </div>
-    <div class="top-bar-right text-right hide-for-small-only"><span>Powered by <a href="https://www.krewbit.com"><strong>Krewbit.com</strong></a></span></div>
+    <div class="top-bar-right text-right hide-for-small-only"><span>Powered by <a href="http://www.krewbit.com" target="_blank"><strong>Krewbit.com</strong></a></span></div>
 
 </div>
 
@@ -144,7 +127,6 @@
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
     <script>$(document).foundation();</script>
-
 <script>
 $(window).load(function() { setTimeout(function () {
     $('.page-loader-left').addClass('left-loaded');
@@ -166,6 +148,5 @@ $('#img').animateCss('flip');
   
 
 </script>
-
   </body>
 </html>
